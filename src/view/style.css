@@ -1,0 +1,126 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+	width: 400px;
+	padding: 20px;
+	border: 2px solid #007BFF;
+	border-radius: 10px;
+	margin: auto;
+	font-family: Arial, sans-serif;
+}
+
+.auth-form input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.auth-form button {
+	width: 100%;
+	padding: 10px;
+	background-color: #007BFF;
+	color: white;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.auth-form button:hover {
+	background-color: #0056b3;
+}
+
+.center-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	padding: 20px;
+	border: 2px solid #007BFF;
+	position: relative;
+}
+
+.actions-ribbon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1000px;
+	padding: 10px;
+	background-color: #007BFF;
+	border: 2px solid #004590;
+	box-sizing: border-box;
+	gap: 10px;
+}
+
+.actions-ribbon button {
+	background-color: #0056B3;
+	color: white;
+	border: 2px solid #004590;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.actions-ribbon button:hover {
+	background-color: #004590;
+}
+
+.link, .logout-button {
+	margin-top: 20px;
+	background: none;
+	border: none;
+	color: #007BFF;
+	text-decoration: underline;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 0;
+}
+
+.link:hover, .logout-button:hover {
+	color: #0056b3;
+	text-decoration: none;
+}
+
+.logout-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.dialogBox {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+
+.dialogBox input {
+	padding: 5px;
+	margin: 5px;
+	font-size: 16px;
+}
+
+.dialogBox button {
+	padding: 5px;
+	margin: 5px;
+	background-color: #808080;
+	color: white;
+	border: 1px solid #36454F;
+	font-size: 16px;
+
+}
+
+.dialogBox button:hover {
+	background-color: #36454F;
+}
+
+h1 {
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
